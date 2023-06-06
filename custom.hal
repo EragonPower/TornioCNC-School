@@ -1,0 +1,5 @@
+# Includi i tuoi comandi HAL personalizzati custom qui
+# Questo file non sara' sovrascritto quando si userà ancora stepconf
+
+net machine-enable       <= parport.0.pin-13-in
+net machine-enable       => halui.machine.on
